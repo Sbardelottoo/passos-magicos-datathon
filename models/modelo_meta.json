@@ -1,0 +1,41 @@
+{
+  "melhor_modelo": "Random Forest",
+  "features_numericas": [
+    "inde",
+    "ida",
+    "ieg",
+    "iaa",
+    "ips",
+    "ipp",
+    "ipv",
+    "ian",
+    "idade",
+    "fase",
+    "defasagem",
+    "anos_na_pm"
+  ],
+  "features_categoricas": [
+    "genero"
+  ],
+  "target": "risco_piora",
+  "definicao_target": "piora da defasagem no ano seguinte",
+  "limiar_padrao": 0.56,
+  "metricas": {
+    "Regressão Logística": {
+      "AUC (CV)": 0.8399855579312593,
+      "AUC (teste)": 0.8533659584626403,
+      "PR-AUC (teste)": 0.5587694711807415
+    },
+    "Random Forest": {
+      "AUC (CV)": 0.8774543671511997,
+      "AUC (teste)": 0.8761637622344235,
+      "PR-AUC (teste)": 0.5823814103009034
+    },
+    "Gradient Boosting": {
+      "AUC (CV)": 0.878672337968718,
+      "AUC (teste)": 0.857424206254476,
+      "PR-AUC (teste)": 0.5799284967637811
+    }
+  },
+  "prevalencia_risco": 0.17238860482103727
+}
