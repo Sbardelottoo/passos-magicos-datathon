@@ -41,6 +41,7 @@ passos-magicos-datathon/
 │   ├── explicador.py      # explicabilidade local + recomendações (usado pelo app)
 │   ├── validacao.py       # validação de dados com mensagens amigáveis
 │   ├── gera_notebook.py   # gera o .ipynb executado
+│   ├── relatorio.py       # exportação de relatório em PDF por aluno
 │   └── gera_apresentacao.py
 ├── notebooks/
 │   └── modelo_preditivo_risco.ipynb
@@ -51,25 +52,33 @@ passos-magicos-datathon/
 │   ├── figures/           # gráficos (.png) — inclui pedras e combinações
 │   └── insights.md        # respostas às perguntas de negócio
 ├── tests/test_pipeline.py # testes automatizados (pytest)
-├── streamlit_app/app.py
-├── .streamlit/config.toml # tema visual
+├── streamlit_app/
+│   ├── app.py
+│   └── assets/logo_passos_magicos.png
+├── .streamlit/config.toml # tema visual (azul/dourado da Passos Mágicos)
 ├── apresentacao/storytelling_passos_magicos.pptx
 ├── docs/
 │   ├── roteiro_video.md
 │   └── deploy_streamlit.md
+├── .python-version / runtime.txt  # versão do Python fixada para o deploy
 └── requirements.txt
 ```
 
 ## 🖥️ A aplicação (experiência do usuário)
 
 - **🔮 Predição individual** — probabilidade de risco + medidor, **radar do aluno
-  vs média da coorte**, **explicação dos fatores** que mais elevam o risco e
-  **ações pedagógicas sugeridas**.
+  vs média da coorte**, **explicação dos fatores** que mais elevam o risco,
+  **ações pedagógicas sugeridas** e **exportação em PDF**.
 - **📋 Turma priorizada** — envie a **planilha PEDE crua** (a limpeza roda
   automaticamente) ou um CSV; recebe a lista de alunos **ordenada por risco**,
   com filtros por fase/pedra e exportação.
+- **📈 Histórico do aluno** — escolha um RA real e veja a **trajetória dos
+  indicadores de 2022–2024**, com o risco calculado a partir do registro mais
+  recente e exportação em PDF.
 - **📊 Panorama** — evolução dos indicadores, distribuição das pedras e
   correlações (2022–2024).
+- Identidade visual da **Associação Passos Mágicos** (logo oficial + paleta
+  azul/dourado) na sidebar, favicon e relatórios em PDF.
 
 ## ✅ Testes
 

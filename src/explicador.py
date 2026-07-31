@@ -51,7 +51,7 @@ def baseline_de(df, num_feats, cat_feats):
     return base
 
 
-def explica_aluno(modelo, entrada, baseline, num_feats, cat_feats, top=4):
+def explica_aluno(modelo, entrada, baseline, num_feats, cat_feats):
     """Retorna DataFrame ranqueado: contribuicao de cada variavel ao risco.
 
     contribuicao = prob_original - prob_com_variavel_no_baseline
