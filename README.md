@@ -14,7 +14,7 @@ partir da Pesquisa Extensiva do Desenvolvimento Educacional (PEDE) de
 ## 🚀 Acesso rápido
 
 - **▶️ App publicado (Streamlit Community Cloud):** https://paapps-magicos-datathon-mbjdeucxaqr7pkuodmftr6.streamlit.app/
-- **▶️ Apresentação em PPT:** @apresentação
+- **▶️ Apresentação em PPT:** [/Apresentação Final.pptx]
 - **▶️ Video (Loom):**https://www.loom.com/share/0e10769efc1347feab54cb162c699a6f
 
 ## 🔗 Entregáveis
