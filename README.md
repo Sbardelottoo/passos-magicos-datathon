@@ -15,7 +15,8 @@ partir da Pesquisa Extensiva do Desenvolvimento Educacional (PEDE) de
 
 - **▶️ App publicado (Streamlit Community Cloud):** https://paapps-magicos-datathon-mbjdeucxaqr7pkuodmftr6.streamlit.app/
 - **▶️ Apresentação em PPT:** [Apresentação Final.pptx](Apresenta%C3%A7%C3%A3o%20Final.pptx)
--  **▶️ Video (Loom):**https://www.loom.com/share/0e10769efc1347feab54cb162c699a6f
+- **▶️ Video (Loom):**https://www.loom.com/share/0e10769efc1347feab54cb162c699a6f
+- **▶️ Github:[httpsgithub.comSbardelottoopassos-magicos-datathon.git](https://github.com/Sbardelottoo/passos-magicos-datathon)
 
 ## 🔗 Entregáveis
 
