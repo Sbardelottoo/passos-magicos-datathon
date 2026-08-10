@@ -14,7 +14,6 @@ partir da Pesquisa Extensiva do Desenvolvimento Educacional (PEDE) de
 ## 🚀 Acesso rápido
 
 - **▶️ App publicado (Streamlit Community Cloud):** https://paapps-magicos-datathon-mbjdeucxaqr7pkuodmftr6.streamlit.app/
-- **🎬 Vídeo de apresentação (até 5 min):** _adicionar o link após a gravação_
 
 ## 🔗 Entregáveis
 
@@ -22,9 +21,7 @@ partir da Pesquisa Extensiva do Desenvolvimento Educacional (PEDE) de
 |---|---|
 | Código de **limpeza e análise** de dados | [`src/limpeza.py`](src/limpeza.py) · [`src/analise.py`](src/analise.py) |
 | **Notebook** do modelo preditivo (feature eng. → split → modelagem → avaliação) | [`notebooks/modelo_preditivo_risco.ipynb`](notebooks/modelo_preditivo_risco.ipynb) |
-| **Apresentação** gerencial (storytelling) | [`apresentacao/`](apresentacao/) — [`.pptx`](apresentacao/storytelling_passos_magicos.pptx) e [`.pdf`](apresentacao/storytelling_passos_magicos.pdf) |
 | **Aplicação Streamlit** (deploy no Community Cloud) | [app publicado](https://paapps-magicos-datathon-mbjdeucxaqr7pkuodmftr6.streamlit.app/) · [`streamlit_app/app.py`](streamlit_app/app.py) |
-| **Vídeo** (roteiro) | [`docs/roteiro_video.md`](docs/roteiro_video.md) |
 | Respostas às **11 perguntas** de negócio | [`RESPOSTAS.md`](RESPOSTAS.md) · [`reports/insights.md`](reports/insights.md) |
 | Insights e figuras | [`reports/`](reports/) |
 
